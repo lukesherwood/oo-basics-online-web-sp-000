@@ -9,6 +9,6 @@ attr_accessor :brand, :color, :size, :material, :condition
 
 def cobble
   puts "The show has been repaired"
-  self.@condition = "New"
+  self.condition = "New"
 end
 end
