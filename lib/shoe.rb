@@ -5,5 +5,10 @@ def initialize(brand)
   @brand = brand
 end
 
-attr_accessor :brand, :color, :size, :material, :condition  
+attr_accessor :brand, :color, :size, :material, :condition
+
+def cobble
+  puts "The show has been repaired"
+  self.@condition = "New"
+end
 end
