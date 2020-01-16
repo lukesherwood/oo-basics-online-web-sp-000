@@ -2,7 +2,7 @@
 class Shoe
   
 def intitialize(brand)
-  @bramd = brand
+  @brand = brand
 end
 
 attr_accessor :brand, :color, :size, :material, :condition  
